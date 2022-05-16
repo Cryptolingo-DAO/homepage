@@ -38,6 +38,9 @@ let homeSwiper = new Swiper(".home-swiper", {
         el: ".swiper-pagination",
         clickable: true,
       },
+        autoplay: {
+    delay: 5000,
+  },
 })
 
 /*=============== CHANGE BACKGROUND HEADER ===============*/
@@ -54,6 +57,9 @@ let newSwiper = new Swiper(".new-swiper", {
     slidesPerView: "auto",
     loop: 'true',
     spaceBetween: 16,
+        autoplay: {
+    delay: 5000,
+  },
 });
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/

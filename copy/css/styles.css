@@ -17,7 +17,7 @@
   --body-color: linear-gradient(
     90deg,
     hsl(225, 84%, 24%),
-    hsl(180, 90%, 50%) 100%
+    hsl(180, 80%, 30%) 100%
   );
   --container-color: linear-gradient(
     136deg,
@@ -321,7 +321,7 @@ button {
 }
 
 .home__title {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: var(--font-black);
   line-height: 109%;
   margin-bottom: var(--mb-1);
@@ -564,8 +564,9 @@ button {
 .discount__container {
   background: var(--container-color);
   border-radius: 1rem;
-  padding: 2.5rem 0 1.5rem;
-  row-gap: 0.75rem;
+  padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+  row-gap: 0rem;
+  /* width: 100%; */
 }
 
 .discount__data {
@@ -575,6 +576,8 @@ button {
 .discount__title {
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-2);
+  margin: var(--mb-2);
+  /* width: 66%; */
 }
 
 .discount__img {
@@ -927,11 +930,11 @@ button {
   }
 
   .discount__container {
-    grid-template-columns: repeat(2, max-content);
+    /* grid-template-columns: repeat(2, max-content); */
     justify-content: center;
     align-items: center;
     column-gap: 3rem;
-    padding: 3rem 0;
+    /* padding: 3rem 3rem ; */
     border-radius: 3rem;
   }
   .discount__img {
@@ -939,7 +942,8 @@ button {
     order: -1;
   }
   .discount__data {
-    padding-right: 6rem;
+    /* padding-right: 6rem; */
+    /* margin: 8rem!important; */
   }
 
   .newsletter__container {
@@ -1034,7 +1038,7 @@ button {
   }
 
   .discount__container {
-    column-gap: 7rem;
+    /* column-gap: 7rem; */
   }
 
   .new__content {

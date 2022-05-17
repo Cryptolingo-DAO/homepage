@@ -39,7 +39,7 @@ let homeSwiper = new Swiper(".home-swiper", {
         clickable: true,
       },
         autoplay: {
-    delay: 3333,
+    delay: 9000,
   },
 })
 
@@ -94,8 +94,8 @@ window.addEventListener('scroll', scrollUp)
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
-    duration: 2500,
-    delay: 400,
+    duration: 555,
+    delay: 333,
     // reset: true
 })
 
